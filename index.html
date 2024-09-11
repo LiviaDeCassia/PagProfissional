@@ -6,15 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name=" description" content="Página profissional de uma desenvolvedora freelancer moderna e criativa">
     <title>Desenvolvedora Freelancer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'roboto', sans-serif;
+            line-height: 1.6;
+            color: aliceblue;
+            background-color: darkslategray;
+
+        }
+
+        /* Container */
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 
 <body>
     <header>
         <div class="container">
-        </div class="logo">
-        <h1>Lívia de Cássia</h1>
-        <p>Desenvolvedor Freelancer</p>
-        <div>
+            <div class="logo">
+                <h1>Lívia de Cássia</h1>
+                <p>Desenvolvedor Freelancer</p>
+            </div>
             <Nav>
                 <ul>
                     <li><a href="#sobre">Sobre</a></li>
@@ -23,7 +45,6 @@
                     <li><a href="#contato">Contato</a></li>
                 </ul>
             </Nav>
-        </div>
     </header>
 
     <!-- Seção de Introdução -->
@@ -34,7 +55,7 @@
             </p>
             <a href="#contato" class="btn">Vamos Conversar</a>
         </div>
-    </section> 
+    </section>
 
     <!-- Seção Sobre -->
     <section id="sobre">
@@ -50,8 +71,8 @@
         </div>
     </section>
 
-    <!-- Seção de Habilidades --> 
-     <section id="Skills">
+    <!-- Seção de Habilidades -->
+    <section id="Skills">
         <div class="container">
             <h2>Minhas Habilidades</h2>
             <div class="Skills-list">
@@ -81,39 +102,42 @@
                 </div>
             </div>
         </div>
-     </section>
+    </section>
 
-<!-- Seção de Portifólio -->
- <section id="portifólio">
-    <div class="container">
-        <h2>Portifólio</h2>
-        <div class="projects">
-            <div class="project">
-                <img src="https://media.licdn.com/dms/image/v2/C5612AQFMcEKGLt8zgg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1520101821789?e=2147483647&v=beta&t=W_fLAr7bQjBI3WtvcD0QWA-c7ZNUuI2UlkmLmabo1Ow" 
-                alt="Projeto I">
-                <h3>Projeto I</h3>
-                <p>Desceição do Projeto I. Tecnologias Usadas e seu Impacto no Projeto.</p>
-            </div>
-            <div class="project">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwCJn0kSe99-XI3W8rfZXQmOGqhL0YQLGnNw&s" alt="Projeto II">
-                <h3>Projeto II</h3>
-                <p>DEscrição do Projeto II. Estudo Sobre Análise de Dados e o Impacto do Projeto.</p>
-            </div>
-            <div class="project">
-                <img src="https://s2-valor.glbimg.com/TQDn3ZREClcrhME8-_fP9iKJ7bw=/0x0:921x451/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2021/8/7/lTQ3o0RkSrWOnMBkac3Q/screenshot-1.png" 
-                alt="Projeto III">
-                <h3>Projeto III</h3>
-                <p>Descrição do Projeto III. Tecnologias Avançadas Para Armazenar Dados e Seus Impactos No Projeto.</p>
+    <!-- Seção de Portifólio -->
+    <section id="portifólio">
+        <div class="container">
+            <h2>Portifólio</h2>
+            <div class="projects">
+                <div class="project">
+                    <img src="https://media.licdn.com/dms/image/v2/C5612AQFMcEKGLt8zgg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1520101821789?e=2147483647&v=beta&t=W_fLAr7bQjBI3WtvcD0QWA-c7ZNUuI2UlkmLmabo1Ow"
+                        alt="Projeto I">
+                    <h3>Projeto I</h3>
+                    <p>Desceição do Projeto I. Tecnologias Usadas e seu Impacto no Projeto.</p>
+                </div>
+                <div class="project">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwCJn0kSe99-XI3W8rfZXQmOGqhL0YQLGnNw&s"
+                        alt="Projeto II">
+                    <h3>Projeto II</h3>
+                    <p>DEscrição do Projeto II. Estudo Sobre Análise de Dados e o Impacto do Projeto.</p>
+                </div>
+                <div class="project">
+                    <img src="https://s2-valor.glbimg.com/TQDn3ZREClcrhME8-_fP9iKJ7bw=/0x0:921x451/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2021/8/7/lTQ3o0RkSrWOnMBkac3Q/screenshot-1.png"
+                        alt="Projeto III">
+                    <h3>Projeto III</h3>
+                    <p>Descrição do Projeto III. Tecnologias Avançadas Para Armazenar Dados e Seus Impactos No Projeto.
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
- </section>
+    </section>
 
-     <!-- Seção de Contato -->
-      <section id="contato">
-         <div class="container">
+    <!-- Seção de Contato -->
+    <section id="contato">
+        <div class="container">
             <h2>Contato</h2>
-            <p>Interessada em trabalhar juntos? Vamos conversar! Preencha o formulário abaixo ou envie um email diretamente
+            <p>Interessada em trabalhar juntos? Vamos conversar! Preencha o formulário abaixo ou envie um email
+                diretamente
                 para <strong>decassialivia21@gmail.com</strong>.</p>
             <form action="#" method="post">
                 <label for="nome">Nome:</label>
@@ -122,17 +146,17 @@
                 <input type="email" id="email" name="email" required>
                 <label for="mensagem">Mensagem:</label>
                 <textarea id="mensagem" name="mensagem" required></textarea>
-                <button type="submit"> Enviar</button>   
+                <button type="submit"> Enviar</button>
             </form>
-         </div>
-      </section>
-
-       <!-- Rodapé -->
-     <footer>
-        <div class="container">
-           <p>&copy;2024 Lívia de Cãssia. Todos os direitos reservados.</p>
         </div>
-     </footer>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy;2024 Lívia de Cãssia. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
